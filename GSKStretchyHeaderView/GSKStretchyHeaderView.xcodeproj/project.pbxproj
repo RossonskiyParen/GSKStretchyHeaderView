@@ -46,12 +46,12 @@
 		82A529F31D3AAE6500E260EA /* UIView+GSKLayoutHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GSKLayoutHelper.h"; sourceTree = "<group>"; };
 		82A529F41D3AAE6500E260EA /* UIView+GSKLayoutHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GSKLayoutHelper.m"; sourceTree = "<group>"; };
 		82A529F71D3AAF1C00E260EA /* HelperMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperMacros.h; sourceTree = "<group>"; };
-		82A529F81D3AB1E800E260EA /* GSKGeometry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = GSKGeometry.c; path = ../Classes/GSKGeometry.c; sourceTree = "<group>"; };
-		82A529F91D3AB1E800E260EA /* GSKGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSKGeometry.h; path = ../Classes/GSKGeometry.h; sourceTree = "<group>"; };
-		82A529FA1D3AB1E800E260EA /* GSKStretchyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSKStretchyHeaderView.h; path = ../Classes/GSKStretchyHeaderView.h; sourceTree = "<group>"; };
-		82A529FB1D3AB1E800E260EA /* GSKStretchyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSKStretchyHeaderView.m; path = ../Classes/GSKStretchyHeaderView.m; sourceTree = "<group>"; };
-		82A529FC1D3AB1E800E260EA /* UIView+GSKTransplantSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+GSKTransplantSubviews.h"; path = "../Classes/UIView+GSKTransplantSubviews.h"; sourceTree = "<group>"; };
-		82A529FD1D3AB1E800E260EA /* UIView+GSKTransplantSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+GSKTransplantSubviews.m"; path = "../Classes/UIView+GSKTransplantSubviews.m"; sourceTree = "<group>"; };
+		82A529F81D3AB1E800E260EA /* GSKGeometry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = GSKGeometry.c; path = ../../Sources/GSKStretchyHeaderView/Classes/GSKGeometry.c; sourceTree = "<group>"; };
+		82A529F91D3AB1E800E260EA /* GSKGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSKGeometry.h; path = ../../Sources/GSKStretchyHeaderView/Classes/GSKGeometry.h; sourceTree = "<group>"; };
+		82A529FA1D3AB1E800E260EA /* GSKStretchyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSKStretchyHeaderView.h; path = ../../Sources/GSKStretchyHeaderView/Classes/GSKStretchyHeaderView.h; sourceTree = "<group>"; };
+		82A529FB1D3AB1E800E260EA /* GSKStretchyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSKStretchyHeaderView.m; path = ../../Sources/GSKStretchyHeaderView/Classes/GSKStretchyHeaderView.m; sourceTree = "<group>"; };
+		82A529FC1D3AB1E800E260EA /* UIView+GSKTransplantSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+GSKTransplantSubviews.h"; path = "../../Sources/GSKStretchyHeaderView/Classes/UIView+GSKTransplantSubviews.h"; sourceTree = "<group>"; };
+		82A529FD1D3AB1E800E260EA /* UIView+GSKTransplantSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+GSKTransplantSubviews.m"; path = "../../Sources/GSKStretchyHeaderView/Classes/UIView+GSKTransplantSubviews.m"; sourceTree = "<group>"; };
 		82A529FE1D3AB1E800E260EA /* GSKStretchyHeaderView+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GSKStretchyHeaderView+Protected.h"; sourceTree = "<group>"; };
 		82A529FF1D3AB1E800E260EA /* UIScrollView+GSKStretchyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+GSKStretchyHeaderView.h"; sourceTree = "<group>"; };
 		82A52A001D3AB1E800E260EA /* UIScrollView+GSKStretchyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+GSKStretchyHeaderView.m"; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 				82A52A001D3AB1E800E260EA /* UIScrollView+GSKStretchyHeaderView.m */,
 			);
 			name = Private;
-			path = ../Classes/Private;
+			path = ../../Sources/GSKStretchyHeaderView/Classes/Private;
 			sourceTree = "<group>";
 		};
 		82BEE6161D3AAA4300A3C3AA = {
@@ -239,6 +239,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 82BEE6161D3AAA4300A3C3AA;

@@ -20,8 +20,8 @@
 // THE SOFTWARE.
 
 #import "GSKStretchyHeaderView.h"
-#import "GSKStretchyHeaderView+Protected.h"
-#import "UIScrollView+GSKStretchyHeaderView.h"
+#import "Private/GSKStretchyHeaderView+Protected.h"
+#import "Private/UIScrollView+GSKStretchyHeaderView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

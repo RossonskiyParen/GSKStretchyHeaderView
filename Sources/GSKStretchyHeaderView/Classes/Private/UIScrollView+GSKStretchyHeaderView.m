@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 
 #import "UIScrollView+GSKStretchyHeaderView.h"
-#import "GSKStretchyHeaderView.h"
+#import "../GSKStretchyHeaderView.h"
 #import "GSKStretchyHeaderView+Protected.h"
 
 @interface UIView (GSKStretchyHeaderViewArrangement)

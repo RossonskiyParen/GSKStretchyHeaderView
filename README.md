@@ -4,6 +4,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/GSKStretchyHeaderView.svg?style=flat)](http://cocoapods.org/pods/GSKStretchyHeaderView)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/GSKStretchyHeaderView.svg?style=flat)](http://cocoapods.org/pods/GSKStretchyHeaderView)
+[![SwiftPackageManager compatible](https://img.shields.io/badge/SwiftPackageManager-compatible-4BC51D.svg?style=flat)](https://github.com/apple/swift-package-manager)
 
 [![CI Status](https://travis-ci.org/gskbyte/GSKStretchyHeaderView.svg?branch=master)](https://travis-ci.org/gskbyte/GSKStretchyHeaderView)
 [![Coverage](https://coveralls.io/repos/github/gskbyte/GSKStretchyHeaderView/badge.svg)](https://coveralls.io/github/gskbyte/GSKStretchyHeaderView)
@@ -120,6 +121,17 @@ github "gskbyte/GSKStretchyHeaderView"
 and run
 ```bash
 carthage update GSKStretchyHeaderView
+```
+
+
+GSKStretchyHeaderView is also available through [SwiftPackageManager](https://swift.org/package-manager/). To install it just add next line to your `Package.swift`:
+
+```swift
+...
+dependencies: [
+    .package(name: "GSKStretchyHeaderView", url: "https://github.com/RossonskiyParen/GSKStretchyHeaderView", from: "1.0.5")
+],
+...
 ```
 
 ## Author
